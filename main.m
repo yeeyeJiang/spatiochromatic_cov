@@ -53,9 +53,9 @@ plot_save(P,var(C_hat(:,:,1)),'-','P','Sample Variances of $\hat{\mathbf{c}}^0_{
 
 
 
-% ---------------------
-% Regression model
-% ---------------------
+% ------------
+% Regression
+% ------------
 s=2;
 dm=0; dM=280;
 load('dtList_filtered_permuted.mat') % cell: names of image files
@@ -87,9 +87,9 @@ sprintf('%.5f, ', est_ols(2:2:end)) % they are the slopes for RR, RG, RB, GR, GG
 
 
 
-% ------------------------------------------------
+% ------------------
 % MM transformation
-% ------------------------------------------------
+% ------------------
 % parameter setting
 s=2; n0=2;
 dm=0; dM=280;
