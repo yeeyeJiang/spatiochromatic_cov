@@ -6,6 +6,6 @@ The folder "Result_data" contains the numeric results calculated from our datase
 
 **C0_s_1_50_N0_2.mat** and **C0_s_1_50_N0_5.mat** are used in the *Validations of estimators’ properties* section, **C_hat_raw.mat** is used in *Regression* section, while **cat_C_hat.mat** is used in the "JointDiag.R" file. 
 
-# Cite
+## Cite
 --
 Please cite our paper if you use this code in your own work.
